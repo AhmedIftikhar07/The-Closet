@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-
-const Hodies = () => {
+const Pents = () => {
   return (
     <div>
     <section className="text-gray-600 body-font">
@@ -9,7 +8,7 @@ const Hodies = () => {
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -21,7 +20,7 @@ const Hodies = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -33,7 +32,7 @@ const Hodies = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -46,7 +45,7 @@ const Hodies = () => {
 
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -58,7 +57,7 @@ const Hodies = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -70,7 +69,7 @@ const Hodies = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -82,7 +81,7 @@ const Hodies = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -94,7 +93,7 @@ const Hodies = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
             <a className="block relative  rounded overflow-hidden">
-              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://uniworthdress.com/uploads/product/TH2227..jpg" />
+              <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mendeez.com/cdn/shop/products/sage-chino-pantsjogger-pantsmendeez-pk-0010923-221133_460x.png?v=1686225638" />
             </a>
             <div className="mt-4">
               <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>
@@ -112,4 +111,4 @@ const Hodies = () => {
   )
 }
 
-export default Hodies
+export default Pents
