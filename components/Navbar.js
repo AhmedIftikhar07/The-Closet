@@ -71,7 +71,8 @@ const Navbar = () => {
           </li>
           
         </ol>
-        <Link href={'/'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Checkout</Link>
+        <Link href={'/'} className='  mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Checkout</Link>
+        <Link href={'/'} className=' mx-3 mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Clear Cart</Link>
       </div>
 
     </div>
