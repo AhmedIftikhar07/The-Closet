@@ -1,8 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { BsCartDashFill } from 'react-icons/bs';
+import { AiFillCloseCircle,AiFillPlusCircle,AiFillMinusCircle } from 'react-icons/ai';
+
+
 const Navbar = () => {
+  const ref = useRef()
+  const toggleCart = ()=>{
+    if(ref.current.classList.contains('absolute')){
+      ref.current.classList.remove('absolute')
+      ref.current.classList.add('hidden')
+    }
+    else if(!ref.current.classList.contains('absolute')){
+      ref.current.classList.remove('hidden')
+      ref.current.classList.add('absolute')
+    }
+  }
   return (
     <div className='flex flex-col md:flex-row md:justify-start justify-center items-center shadow-md sticky top-0 bg-white z-50'>
       <div className="logo mx-5">
@@ -10,14 +24,54 @@ const Navbar = () => {
       </div>
       <div className="nav">
         <ul className='flex  space-x-3 my-3'>
-          <Link href={'/tshirts'}><li className='hover:text-indigo-600'>T-Shirts</li></Link>
-          <Link href={'/pents'}><li className='hover:text-indigo-600'>Pents</li></Link>
-          <Link href={'/hodies'}><li className='hover:text-indigo-600'>Hodies</li></Link>
-          <Link href={'/mugs'}><li className='hover:text-indigo-600'>Mugs</li></Link>
+          <Link href={'/tshirts'}><li className='hover:text-red-500'>T-Shirts</li></Link>
+          <Link href={'/pents'}><li className='hover:text-red-500'>Pents</li></Link>
+          <Link href={'/hodies'}><li className='hover:text-red-500'>Hodies</li></Link>
+          <Link href={'/mugs'}><li className='hover:text-red-500'>Mugs</li></Link>
         </ul>
       </div>
-      <div className="cart absolute md:text-3xl right-0 mx-5 top-5 text-lg text-indigo-600">
+      <div onClick={toggleCart} className="cart absolute md:text-3xl right-0 mx-5 cursor-pointer top-5 text-lg text-red-500">
         <BsCartDashFill />
+      </div>
+
+
+      <div ref={ref} className="md:w-72 w-screen h-screen sideCart hidden top-0 right-0 shadow-md bg-red-100 px-6 py-10">
+        <h2 className=' text-center font-bold text-xl my-3'>Shopping Cart</h2>
+        <span onClick={toggleCart} className="absolute top-4 right-3 text-2xl cursor-pointer text-red-500"><AiFillCloseCircle/></span>
+        <ol className='list-decimal font-semibold'>
+          <li>
+            <div className="item flex my-5">
+            <div className='w-2/3 font-semibold items-center justify-center flex'>T-shirt - The Closet</div> 
+            <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle  className='text-red-400 cursor-pointer text-lg'/><span className='mx-2'>1</span><AiFillPlusCircle className='text-red-400 cursor-pointer text-lg'/></div>
+            </div>
+          </li>
+          <li>
+            <div className="item flex my-5">
+            <div className='w-2/3 font-semibold items-center justify-center flex'>T-shirt - The Closet</div> 
+            <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle  className='text-red-400 cursor-pointer text-lg'/><span className='mx-2'>1</span><AiFillPlusCircle className='text-red-400 cursor-pointer text-lg'/></div>
+            </div>
+          </li>
+          <li>
+            <div className="item flex my-5">
+            <div className='w-2/3 font-semibold items-center justify-center flex'>T-shirt - The Closet</div> 
+            <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle  className='text-red-400 cursor-pointer text-lg'/><span className='mx-2'>1</span><AiFillPlusCircle className='text-red-400 cursor-pointer text-lg'/></div>
+            </div>
+          </li>
+          <li>
+            <div className="item flex my-5">
+            <div className='w-2/3 font-semibold items-center justify-center flex'>T-shirt - The Closet</div> 
+            <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle  className='text-red-400 cursor-pointer text-lg'/><span className='mx-2'>1</span><AiFillPlusCircle className='text-red-400 cursor-pointer text-lg'/></div>
+            </div>
+          </li>
+          <li>
+            <div className="item flex my-5">
+            <div className='w-2/3 font-semibold items-center justify-center flex'>T-shirt - The Closet</div> 
+            <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle  className='text-red-400 cursor-pointer text-lg'/><span className='mx-2'>1</span><AiFillPlusCircle className='text-red-400 cursor-pointer text-lg'/></div>
+            </div>
+          </li>
+          
+        </ol>
+        <Link href={'/'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Checkout</Link>
       </div>
 
     </div>

@@ -16,7 +16,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
@@ -28,7 +28,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
@@ -40,7 +40,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">Neptune</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
@@ -65,7 +65,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
@@ -77,7 +77,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">Neptune</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
@@ -89,7 +89,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
           <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-md">
@@ -101,7 +101,7 @@ const Hodies = () => {
               <h2 className="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
               <p className="mt-1">PKR 16.00</p>
               <p className="mt-1 mb-2">S, M, L, XL</p>
-              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
+              <Link href={'/product/buynow'} className='mx-auto mt-16 text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm'>Buy Now</Link>
             </div>
           </div>
 
