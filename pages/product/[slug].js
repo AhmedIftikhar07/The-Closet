@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 
-const Slug = () => {
+const Slug = ({addToCart}) => {
   const router = useRouter()
   const {slug} = router.query
   const [pin, setPin] = useState()
@@ -100,7 +100,7 @@ const Slug = () => {
         </div>
         <div className="flex mt-4">
         <button className="flex  text-white bg-red-500 border-0 py-2 px-5 focus:outline-none hover:bg-red-600 rounded">Buy Now</button>
-          <button className="flex ml-3 text-white bg-red-500 border-0 py-2  px-5  focus:outline-none hover:bg-red-600 rounded">Add to Cart</button>
+          <button className="flex ml-3 text-white bg-red-500 border-0 py-2  px-5  focus:outline-none hover:bg-red-600 rounded" onClick={()=>{addToCart(slug, 1, 499, 'wear the code(M, Red)', 'M', 'pink')}}>Add to Cart</button>
         </div>
         <div className="pin mt-10 flex space-x-2">
           <input onChange={onChange} className='px-2 border-2 w-40 border-red-100 outline-red-400' type="text" placeholder='Enter pin' />
