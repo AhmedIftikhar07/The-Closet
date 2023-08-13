@@ -45,7 +45,7 @@ const Checkout = ({cart,addToCart,removeFromCart,subTotal}) => {
             </div>
             <div className="p-2 md:w-1/2">
               <div className="relative">
-                <label htmlFor="pincode" className="leading-7 text-sm text-gray-600">Pincodes <span className='text-red-500'>*</span></label>
+                <label htmlFor="pincode" className="leading-7 text-sm text-gray-600">Pincode <span className='text-red-500'>*</span></label>
                 <input type="text" id="pincode" name="pincode" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
             </div>
@@ -79,7 +79,7 @@ const Checkout = ({cart,addToCart,removeFromCart,subTotal}) => {
           })}
           <span className="total font-bold">Subtotal: {subTotal}Rs</span>
         </ol>
-        <Link href={'/checkout'}><button className='  mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Pay {subTotal} Rs</button></Link>
+        <Link href={'/order'}><button className='  mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Pay {subTotal} Rs</button></Link>
       </div>
           </div>
         </div>
