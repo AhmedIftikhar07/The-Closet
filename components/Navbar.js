@@ -51,9 +51,9 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
             </li>
           })}
 
-
+          <span className="total font-bold">Subtotal: {subTotal}Rs</span>
         </ol>
-        <button className='  mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Checkout</button>
+        <Link href={'/checkout'}><button className='  mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Checkout</button></Link>
         <button onClick={clearCart} className=' mx-3 mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Clear Cart</button>
       </div>
 

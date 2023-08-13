@@ -103,7 +103,7 @@ const Slug = ({addToCart}) => {
           <button className="flex ml-3 text-white bg-red-500 border-0 py-2  px-5  focus:outline-none hover:bg-red-600 rounded" onClick={()=>{addToCart(slug, 1, 499, 'wear the code(M, Red)', 'M', 'pink')}}>Add to Cart</button>
         </div>
         <div className="pin mt-10 flex space-x-2">
-          <input onChange={onChange} className='px-2 border-2 w-40 border-red-100 outline-red-400' type="text" placeholder='Enter pin' />
+          <input onChange={onChange} className='px-2 border-2 w-40 border-red-100 outline-red-400' type="text" placeholder='Enter pincode' />
           <button onClick={checkServiceAvailibity} className='flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded'>Check</button>
         </div>
         {!service && service != null && <div className="text-red-600 text-sm mt-3">

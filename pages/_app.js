@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
     try {
       if(localStorage.getItem("cart")){
         setCart(JSON.parse(localStorage.getItem("cart")))
+        saveCart(JSON.parse(localStorage.getItem('cart')))
       }
       
     } catch (error) {
@@ -69,7 +70,7 @@ export default function App({ Component, pageProps }) {
     <link rel="icon" href="/favicon-32x32.png" />
     </Head>
 
-    <Navbar cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal}></Navbar>
+    <Navbar  cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal}></Navbar>
      <Component cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal} {...pageProps} />
      <Footer></Footer>
     </>
