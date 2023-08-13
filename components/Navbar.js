@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { BsCartDashFill } from 'react-icons/bs';
+import { MdAccountCircle } from 'react-icons/md';
 import { AiFillCloseCircle, AiFillPlusCircle, AiFillMinusCircle } from 'react-icons/ai';
 
 
@@ -31,8 +32,9 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
           <Link href={'/mugs'}><li className='hover:text-red-500'>Mugs</li></Link>
         </ul>
       </div>
-      <div onClick={toggleCart} className="cart absolute md:text-3xl right-0 mx-5 cursor-pointer top-5 text-lg text-red-500">
-        <BsCartDashFill />
+      <div className="flex cart absolute right-0 md:mx-5 mx-2 cursor-pointer top-5 ">
+        <Link href={'/login'}><MdAccountCircle className='text-2xl md:text-4xl mx-1' /></Link>
+        <BsCartDashFill onClick={toggleCart} className='text-xl md:text-3xl' />
       </div>
 
 
@@ -45,13 +47,13 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
             return <li key={k}>
               <div className="item flex my-5">
                 <div className='w-2/3 font-semibold items-center justify-center flex'>{cart[k].name}</div>
-                <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle onClick={()=>{removeFromCart(k,1, cart[k].price, cart[k].name, cart[k].variant, cart[k].size)}} className='text-red-400 cursor-pointer text-lg' /><span className='mx-2'>{cart[k].qty}</span><AiFillPlusCircle onClick={()=>{addToCart(k,1, cart[k].price, cart[k].name, cart[k].variant, cart[k].size)}} className='text-red-400 cursor-pointer text-lg' />
+                <div className='w-1/3 font-semibold items-center justify-center flex text-red'><AiFillMinusCircle onClick={() => { removeFromCart(k, 1, cart[k].price, cart[k].name, cart[k].variant, cart[k].size) }} className='text-red-400 cursor-pointer text-lg' /><span className='mx-2'>{cart[k].qty}</span><AiFillPlusCircle onClick={() => { addToCart(k, 1, cart[k].price, cart[k].name, cart[k].variant, cart[k].size) }} className='text-red-400 cursor-pointer text-lg' />
                 </div>
               </div>
             </li>
           })}
 
-          <span className="total font-bold">Subtotal: {subTotal}Rs</span>
+          <span className="total font-bold">Total: {subTotal} Rs</span>
         </ol>
         <Link href={'/checkout'}><button className='  mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Checkout</button></Link>
         <button onClick={clearCart} className=' mx-3 mt-16  text-white bg-red-500 border-0 py-1 px-2 focus:outline-none hover:bg-red-600 rounded text-sm'>Clear Cart</button>

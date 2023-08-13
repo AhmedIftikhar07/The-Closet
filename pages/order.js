@@ -38,7 +38,7 @@ const Order = () => {
         </div>
         
         <div className="flex md:flex-row flex-col">
-          <span className="title-font font-medium text-2xl md:mb-0 mb-4 text-gray-900">Subtotal: 1490 Rs</span>
+          <span className="title-font font-medium text-2xl md:mb-0 mb-4 text-gray-900">Total: 1490 Rs</span>
           <button class="md:flex md:ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Track Order</button>
         </div>
       </div>
